@@ -1,0 +1,251 @@
+
+.category-badge {
+  font-size: 0.75rem;
+}
+.article-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .search-input {
+    border-radius: 50px;
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+  }
+  .search-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+  }
+
+
+  .category-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+  }
+  .category-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .category-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+  }
+
+
+  .news-bg {
+    background-color: #ec6d42; /* Adjust to match your image background */
+  }
+  .news-title {
+    font-weight: bold;
+  }
+  .news-meta {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #6c757d;
+  }
+  .news-text {
+    font-weight: 500;
+  }
+
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .badge-tech {
+    background-color: #ff7043;
+    color: white;
+  }
+
+
+
+
+
+  .team-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 300px;
+  }
+  
+  .team-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .team-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+  }
+  
+  .team-name {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .team-title {
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+
+
+
+  .podcast-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .podcast-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .podcast-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%);
+  }
+  
+  .badge-minute {
+    background-color: #ff6347;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .badge-host {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  .main-card {
+    height: 380px;
+  }
+  
+  .small-card {
+    height: 180px;
+  }
+
+
+
+
+
+
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0 20px;
+  }
+  
+  .email-input {
+    background-color: transparent;
+    border: 1px solid #333;
+    color: #666;
+    border-radius: 30px;
+    padding: 8px 15px;
+    height: 40px;
+    width: 100%;
+  }
+  
+  .subscribe-btn {
+    background-color: #ff6347;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .footer-divider {
+    border-top: 1px solid #222;
+    margin: 20px 0;
+  }
+  
+  .footer-links a {
+    color: #777;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-links h6 {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .social-link i.fa-arrow-right {
+    font-size: 12px;
+  }
+  
+  .copyright {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  .brand-logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-bottom-links {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 15px;
+  }
